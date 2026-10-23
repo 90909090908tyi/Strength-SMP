@@ -1,0 +1,18 @@
+strength:
+  minimum: 0
+  maximum: 5
+  default: 0
+  damage-per-point: 1.0
+  kill-reward: 1
+  death-penalty: 1
+  minimum-spectator: true
+  protection-seconds: 30
+bind:
+  initial-cost: 3
+  swap-cost: 1
+cooldowns:
+  ability-seconds: 15
+  reroll-seconds: 0
+combat:
+  pvp-enabled: true
+  bounty-expiry-hours: 168

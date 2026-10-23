@@ -1,0 +1,34 @@
+name: StrengthSMP
+version: '${version}'
+main: dev.strengthsmp.StrengthSMP
+api-version: '1.21.11'
+author: StrengthSMP
+description: Strength progression, soul-bound combat classes, and SMP items.
+commands:
+  strength:
+    description: View your strength and class.
+    aliases: [str, power]
+    usage: /strength
+  bind:
+    description: Bind or swap a combat class.
+    usage: /bind
+  withdraw:
+    description: Withdraw strength as shards.
+    usage: /withdraw <amount>
+  bounty:
+    description: Place a strength bounty.
+    usage: /bounty <player> <amount>
+  ability:
+    description: Activate your bound class ability.
+    usage: /ability
+  removeprotection:
+    description: End your protection early.
+    usage: /removeprotection
+  strengthsmp:
+    description: StrengthSMP administration.
+    permission: strengthsmp.admin
+    usage: /strengthsmp <reload|setstrength|setweapon|reroll|giveitem|maintenance|resetplayer>
+permissions:
+  strengthsmp.admin:
+    description: Administer StrengthSMP.
+    default: op
